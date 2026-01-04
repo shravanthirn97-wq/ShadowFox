@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>Hello! I'm Shravanthi, a web developer passionate about UX/UI design. Welcome to my portfolio!</p>
+            <img src="https://img.freepik.com/premium-vector/cute-woman-avatar-profile-vector-illustration_1058532-14592.jpg?w=2000" alt="Profile picture of [Your Name]" class="profile-img">
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <button id="toggle-resume">Show/Hide Resume</button>
+            <div id="resume-content" class="hidden">
+                <h3>Education</h3>
+                <p>CSE ,BE</p>
+                <a href="c:\Users\rnshr\Downloads\resume_shravanthi.pdf" download>Download Full Resume (PDF)</a>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1: Railway management system</h3>
+                    <p>Developed using html ,css and DBMS</p>
+                    
+                <div class="project-card">
+                    <h3>Project 2:Ecommerce Website</h3>
+                    <p>Developed using html ,css and DBMS</p>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <label>HTML/CSS</label>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <label>JavaScript</label>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <label>Python</label>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <!-- Add more skills -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: [shravanthi97@gmail.com]</p>
+            <p>Phone: [7853658109]</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shravanthi-rn-685b112a1">My LinkedIn</a></p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shravanthi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
